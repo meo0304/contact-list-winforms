@@ -22,6 +22,7 @@ namespace ContactList
 
         }
 
+<<<<<<< HEAD
         private void MainForm_Load(object sender, EventArgs e)
         {
 
@@ -30,6 +31,10 @@ namespace ContactList
         private void button1_Click(object sender, EventArgs e)
         {
 
+=======
+        private void button1_Click(object sender, EventArgs e)
+        {
+>>>>>>> ffb6fd0a29e8e4b56c57ce5ba376ae21a9b5f386
         }
     }
 }
