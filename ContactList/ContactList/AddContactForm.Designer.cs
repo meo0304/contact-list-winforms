@@ -35,12 +35,13 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(115, 58);
+            this.label1.Location = new System.Drawing.Point(115, 135);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(52, 16);
@@ -51,7 +52,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(465, 58);
+            this.label2.Location = new System.Drawing.Point(450, 239);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 16);
@@ -60,7 +61,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(119, 116);
+            this.textBox1.Location = new System.Drawing.Point(119, 193);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(151, 22);
@@ -68,7 +69,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(469, 116);
+            this.textBox2.Location = new System.Drawing.Point(454, 297);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(132, 22);
@@ -88,7 +89,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(123, 175);
+            this.label3.Location = new System.Drawing.Point(123, 252);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(41, 16);
             this.label3.TabIndex = 5;
@@ -96,16 +97,27 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(118, 220);
+            this.textBox3.Location = new System.Drawing.Point(118, 297);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(152, 22);
             this.textBox3.TabIndex = 6;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Trebuchet MS", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(226, 40);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(420, 59);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Thông tin bổ sung";
             // 
             // AddContactForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button1);
@@ -130,5 +142,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label4;
     }
 }
